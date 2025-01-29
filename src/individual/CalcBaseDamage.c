@@ -471,7 +471,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MAGMA_ARMOR) == TRUE)) 
     {
         defense = defense * 150 / 100;
-        sp_defense = special defense * 150 / 100;
+        sp_defense = sp_defense * 150 / 100;
     }
 
     // handle grass pelt
