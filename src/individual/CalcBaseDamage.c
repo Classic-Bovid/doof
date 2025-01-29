@@ -30,7 +30,7 @@ struct PACKED sDamageCalc
     u8 type2;
 };
 
-
+//This is the core table for item held effects that do not have trigger based properties.
 
 static const u8 HeldItemPowerUpTable[][2]={
     {HOLD_EFFECT_STRENGTHEN_BUG, TYPE_BUG},
