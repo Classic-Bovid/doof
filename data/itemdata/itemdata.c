@@ -33619,8 +33619,8 @@ const ITEMDATA __data[] =
 [ITEM_BLASTOISINITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 0,
-    .holdEffect = 0,
-    .holdEffectParam = 0,
+    .holdEffect = HOLD_EFFECT_HP_RESTORE_ON_DMG,
+    .holdEffectParam = 8,
     .pluckEffect = 0,
     .flingEffect = 0,
     .flingPower = 0,
@@ -33684,8 +33684,8 @@ const ITEMDATA __data[] =
 [ITEM_BEEDRILLITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 0,
-    .holdEffect = 0,
-    .holdEffectParam = 0,
+    .holdEffect = HOLD_EFFECT_MAYBE_ENDURE,
+    .holdEffectParam = 10,
     .pluckEffect = 0,
     .flingEffect = 0,
     .flingPower = 0,
@@ -33879,8 +33879,8 @@ const ITEMDATA __data[] =
 [ITEM_SLOWBRONITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 0,
-    .holdEffect = 0,
-    .holdEffectParam = 0,
+    .holdEffect = HOLD_EFFECT_DAMAGE_ON_CONTACT,
+    .holdEffectParam = 6,
     .pluckEffect = 0,
     .flingEffect = 0,
     .flingPower = 0,
@@ -34399,8 +34399,8 @@ const ITEMDATA __data[] =
 [ITEM_AMPHAROSITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 0,
-    .holdEffect = 0,
-    .holdEffectParam = 0,
+    .holdEffect = HOLD_EFFECT_STRENGTHEN_DRAGON,
+    .holdEffectParam = 20,
     .pluckEffect = 0,
     .flingEffect = 0,
     .flingPower = 0,
@@ -35309,8 +35309,8 @@ const ITEMDATA __data[] =
 [ITEM_MANECTITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 0,
-    .holdEffect = 0,
-    .holdEffectParam = 0,
+    .holdEffect = HOLD_EFFECT_STRENGTHEN_ELECTRIC,
+    .holdEffectParam = 20,
     .pluckEffect = 0,
     .flingEffect = 0,
     .flingPower = 0,
@@ -36284,8 +36284,8 @@ const ITEMDATA __data[] =
 [ITEM_GALLADITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 0,
-    .holdEffect = 0,
-    .holdEffectParam = 0,
+    .holdEffect = HOLD_EFFECT_POWER_UP_PHYS,
+    .holdEffectParam = 10,
     .pluckEffect = 0,
     .flingEffect = 0,
     .flingPower = 0,
