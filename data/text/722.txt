@@ -38,7 +38,7 @@ The Pokémon copies the\nfoe’s ability.
 Raises the Pokémon’s\nAttack stat.
 Contact with the Pokémon\nmay poison the foe.
 The Pokémon is protected\nfrom flinching.
-Prevents the Pokémon\nfrom becoming frozen.
+Pokémon cannot be froze\nand all damage is reduced by 50%.
 Prevents the Pokémon\nfrom getting a burn.
 Prevents Steel-type\nPokémon from escaping.
 Gives full immunity to all\nsound-based moves.
