@@ -1022,7 +1022,7 @@ movedata MOVE_HYPER_BEAM, "Hyper Beam"
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_NORMAL
-    accuracy 90
+    accuracy 85
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -4926,7 +4926,7 @@ movedata MOVE_BLAST_BURN, "Blast Burn"
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_FIRE
-    accuracy 90
+    accuracy 85
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -4942,7 +4942,7 @@ movedata MOVE_HYDRO_CANNON, "Hydro Cannon"
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_WATER
-    accuracy 90
+    accuracy 85
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -5422,7 +5422,7 @@ movedata MOVE_FRENZY_PLANT, "Frenzy Plant"
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_GRASS
-    accuracy 90
+    accuracy 85
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -6670,7 +6670,7 @@ movedata MOVE_GIGA_IMPACT, "Giga Impact"
     pss SPLIT_PHYSICAL
     basepower 150
     type TYPE_NORMAL
-    accuracy 90
+    accuracy 85
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -7038,7 +7038,7 @@ movedata MOVE_ROCK_WRECKER, "Rock Wrecker"
     pss SPLIT_PHYSICAL
     basepower 150
     type TYPE_ROCK
-    accuracy 90
+    accuracy 85
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -7358,7 +7358,7 @@ movedata MOVE_ROAR_OF_TIME, "Roar of Time"
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_DRAGON
-    accuracy 90
+    accuracy 85
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
