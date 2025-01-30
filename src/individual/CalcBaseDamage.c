@@ -1025,27 +1025,26 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
 //Deprecated Ability Reworks
     // handle marvel scale
-    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MARVEL_SCALE) == TRUE)) 
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MARVEL_SCALE) == TRUE) 
     {
         *defense = *defense * 150 / 100;
     }
 
     // handle magma armor
-    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MAGMA_ARMOR) == TRUE)) 
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MAGMA_ARMOR) == TRUE)
     {
         *defense = *defense * 150 / 100;
         *sp_defense = *sp_defense * 150 / 100;
     } 
 
     // handle damp defending
-    if (DefendingMon.ability == ABILITY_DAMP && movetype == TYPE_FIRE))
+    if (DefendingMon.ability == ABILITY_DAMP && movetype == TYPE_FIRE)
     {
         *damage /= 2;
     }
 
     // handle damp attacking
-    if (AttackingMon.ability == ABILITY_DAMP && movetype == TYPE_WATER))
+    if (AttackingMon.ability == ABILITY_DAMP && movetype == TYPE_WATER)
     {
         *movepower = *movepower * 2;
     }
-}
