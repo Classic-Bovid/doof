@@ -4,7 +4,7 @@ The Pokémon makes it rain\nif it appears in battle.
 Its Speed stat is\ngradually boosted.
 The Pokémon is protected\nagainst critical hits.
 It is protected against\n1-hit KO attacks.
-Prevents combatants\nfrom self-destructing.
+Fire-Type Moves halved,\nWater-Type Moves boosted by 50%. 
 The Pokémon is protected\nfrom paralysis.
 Boosts the Pokémon’s\nevasion in a sandstorm.
 Contact with the Pokémon\nmay cause paralysis.
