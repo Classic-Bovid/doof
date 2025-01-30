@@ -61,7 +61,7 @@ CASTFORM transforms with\nthe weather.
 Protects the Pokémon\nfrom item theft.
 The Pokémon may heal its\nown status problems.
 Boosts Attack if there is\na status problem.
-Ups Defense if there is\na status problem.
+Boosts Defense by 50%.
 Inflicts damage on foes\nusing any draining move.
 Powers up Grass-type\nmoves in a pinch.
 Powers up Fire-type\nmoves in a pinch.
