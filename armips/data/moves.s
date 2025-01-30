@@ -1022,7 +1022,7 @@ movedata MOVE_HYPER_BEAM, "Hyper Beam"
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_NORMAL
-    accuracy 85
+    accuracy 90
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -4926,12 +4926,12 @@ movedata MOVE_BLAST_BURN, "Blast Burn"
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_FIRE
-    accuracy 85
+    accuracy 90
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | 
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0x16
     contesttype CONTEST_BEAUTY
     terminatedata
@@ -4942,12 +4942,12 @@ movedata MOVE_HYDRO_CANNON, "Hydro Cannon"
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_WATER
-    accuracy 85
+    accuracy 90
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | 
+    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0x16
     contesttype CONTEST_BEAUTY
     terminatedata
@@ -5422,12 +5422,12 @@ movedata MOVE_FRENZY_PLANT, "Frenzy Plant"
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_GRASS
-    accuracy 85
+    accuracy 90
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | 
+    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0x16
     contesttype CONTEST_COOL
     terminatedata
@@ -6670,12 +6670,12 @@ movedata MOVE_GIGA_IMPACT, "Giga Impact"
     pss SPLIT_PHYSICAL
     basepower 150
     type TYPE_NORMAL
-    accuracy 85
+    accuracy 90
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_CONTACT
+    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x16
     contesttype CONTEST_BEAUTY
     terminatedata
@@ -7038,12 +7038,12 @@ movedata MOVE_ROCK_WRECKER, "Rock Wrecker"
     pss SPLIT_PHYSICAL
     basepower 150
     type TYPE_ROCK
-    accuracy 85
+    accuracy 90
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | 
+    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0x16
     contesttype CONTEST_TOUGH
     terminatedata
@@ -7358,12 +7358,12 @@ movedata MOVE_ROAR_OF_TIME, "Roar of Time"
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_DRAGON
-    accuracy 85
+    accuracy 90
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE |
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0x16
     contesttype CONTEST_COOL
     terminatedata
