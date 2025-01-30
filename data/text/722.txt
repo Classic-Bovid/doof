@@ -65,7 +65,7 @@ Boosts Defense by 50%.
 Inflicts damage on foes\nusing any draining move.
 Powers up Grass-type\nmoves in a pinch.
 Powers up Fire-type\nmoves in a pinch.
-Powers up Water-type\nmoves in a pinch.
+Powers↑ {COLOR 1}Water-type{COLOR 0}\nmoves in a pinch.
 Powers up Bug-type\nmoves in a pinch.
 Protects the Pokémon\nfrom recoil damage.
 The Pokémon makes it\nsunny if it is in battle.
