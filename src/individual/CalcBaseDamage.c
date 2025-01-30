@@ -1023,9 +1023,3 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     return damage + 2;
 }
-
-    // handle marvel scale
-    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MARVEL_SCALE) == TRUE))
-    {
-        defense = defense * 150 / 100;
-    }
