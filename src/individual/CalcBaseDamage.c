@@ -461,19 +461,6 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
 
-    // handle marvel scale
-    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MARVEL_SCALE) == TRUE)) 
-    {
-        defense = defense * 150 / 100;
-    }
-
-// handle magma armor
-    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MAGMA_ARMOR) == TRUE)) 
-    {
-        defense = defense * 150 / 100;
-        sp_defense = sp_defense * 150 / 100;
-    }
-
     // handle grass pelt
     if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_GRASS_PELT) == TRUE) && (sp->terrainOverlay.type == GRASSY_TERRAIN && sp->terrainOverlay.numberOfTurnsLeft > 0))
     {
@@ -1000,7 +987,19 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     {
         damage /= 2;
     }
-      
+//Deprecated Ability Reworks
+ // handle marvel scale
+    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MARVEL_SCALE) == TRUE)) 
+    {
+        defense = defense * 150 / 100;
+    }
+
+// handle magma armor
+    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MAGMA_ARMOR) == TRUE)) 
+    {
+        defense = defense * 150 / 100;
+        sp_defense = sp_defense * 150 / 100;
+    }      
     // handle field effects
     if (sp->terrainOverlay.numberOfTurnsLeft > 0) {
         switch (sp->terrainOverlay.type)
