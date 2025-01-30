@@ -1024,27 +1024,30 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 }
 
 //Deprecated Ability Reworks
-// handle marvel scale
-if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MARVEL_SCALE) == TRUE) 
+void HandleAbilities(struct BattleStruct *sp, int attacker, int defender, u16 movetype, u32 *damage, u16 *movepower, u16 *defense, u16 *sp_defense)
 {
-    defense = defense * 150 / 100;
-}
+    // handle marvel scale
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MARVEL_SCALE) == TRUE) 
+    {
+        *defense = *defense * 150 / 100;
+    }
 
-// handle magma armor
-if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MAGMA_ARMOR) == TRUE) 
-{
-    defense = defense * 150 / 100;
-    sp_defense = sp_defense * 150 / 100;
-} 
+    // handle magma armor
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MAGMA_ARMOR) == TRUE) 
+    {
+        *defense = *defense * 150 / 100;
+        *sp_defense = *sp_defense * 150 / 100;
+    } 
 
-// handle damp defending
-if (DefendingMon.ability == ABILITY_DAMP && movetype == TYPE_FIRE)
-{
-    damage /= 2;
-}
+    // handle damp defending
+    if (DefendingMon.ability == ABILITY_DAMP && movetype == TYPE_FIRE)
+    {
+        *damage /= 2;
+    }
 
-// handle damp attacking
-if (AttackingMon.ability == ABILITY_DAMP && movetype == TYPE_WATER)
-{
-    movepower = movepower * 2;
+    // handle damp attacking
+    if (AttackingMon.ability == ABILITY_DAMP && movetype == TYPE_WATER)
+    {
+        *movepower = *movepower * 2;
+    }
 }
