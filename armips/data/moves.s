@@ -4931,7 +4931,7 @@ movedata MOVE_BLAST_BURN, "Blast Burn"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | 
     appeal 0x16
     contesttype CONTEST_BEAUTY
     terminatedata
@@ -4947,7 +4947,7 @@ movedata MOVE_HYDRO_CANNON, "Hydro Cannon"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
+    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | 
     appeal 0x16
     contesttype CONTEST_BEAUTY
     terminatedata
@@ -5427,7 +5427,7 @@ movedata MOVE_FRENZY_PLANT, "Frenzy Plant"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
+    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | 
     appeal 0x16
     contesttype CONTEST_COOL
     terminatedata
@@ -6675,7 +6675,7 @@ movedata MOVE_GIGA_IMPACT, "Giga Impact"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_CONTACT
     appeal 0x16
     contesttype CONTEST_BEAUTY
     terminatedata
@@ -7043,7 +7043,7 @@ movedata MOVE_ROCK_WRECKER, "Rock Wrecker"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
+    flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | 
     appeal 0x16
     contesttype CONTEST_TOUGH
     terminatedata
@@ -7363,7 +7363,7 @@ movedata MOVE_ROAR_OF_TIME, "Roar of Time"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE |
     appeal 0x16
     contesttype CONTEST_COOL
     terminatedata
