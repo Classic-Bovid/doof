@@ -1036,3 +1036,15 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         defense = defense * 150 / 100;
         sp_defense = sp_defense * 150 / 100;
     } 
+
+    // handle damp defending
+    if ((DefendingMon.ability == ABILITY_DAMP) && (movetype == TYPE_FIRE))
+    {
+        damage /= 2;
+    }
+
+    // handle damp attacking
+    if ((AttackingMon.ability == ABILITY_DAMP) && (movetype == TYPE_WATER))
+    {
+        movepower = movepower * 2;
+    }
