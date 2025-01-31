@@ -509,11 +509,23 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
                 accuracy = accuracy * 80 / 100;
             }
         }
-        if (sp->field_condition & FIELD_STATUS_FOG)
+   
+
+ //Fog Rework
+if ((CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) == 0)
+     && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK) == 0))
+    {
+//Above line is for Cloud Nine & Air Lock Interactions
+    if (sp->field_condition & FIELD_STATUS_FOG)
         {
-            accuracy = accuracy * 6 / 10;
+            //accuracy = accuracy * 6 / 10; Original Effect
         }
     }
+
+
+
+
+
 
     if ((atk_ability == ABILITY_HUSTLE) && (move_split == SPLIT_PHYSICAL))
     {
